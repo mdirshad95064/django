@@ -53,4 +53,4 @@ def contact(request):
         )
         data.save()
 
-    return render(request,'contact.html',views)
+    return render(request,'contact.html')
